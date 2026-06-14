@@ -150,6 +150,10 @@ Read CSV row
 - IP wait timeout is 5 minutes per VM (`govc vm.ip -wait 5m`).
 - For Linux, `vmware-toolsd` must be running on the template for customization to apply correctly.
 - For Windows, VMware Tools and a valid Sysprep configuration on the template are required.
+- Windows VMs are powered on without a local administrator password set. 
+  Initial configuration (domain join, password assignment, etc.) should be 
+  performed by connecting directly to the VM console via vCenter.
+
 
 ---
 
