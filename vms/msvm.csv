@@ -1,0 +1,6 @@
+folder;vmname;hostname;osdisk;disk1;disk2;disk3;cpu;memory;vlan;ip;netmask;gw;dns1;dns2;domain;vmenv;vmteam
+Microsoft;tr-db01;tr-db01;150;0;0;0;4;32;VLAN_70;10.10.10.1;255.255.255.0;10.10.10.254;10.10.0.1;10.10.0.12;domain.local;prod;microsoft
+Microsoft;tr-db02;tr-db02;150;0;0;0;4;16;VLAN_70;10.10.10.2;255.255.255.1;10.10.10.254;10.10.0.1;10.10.0.13;domain.local;prod;microsoft
+Microsoft;tr-db03;tr-db03;150;0;0;0;4;16;VLAN_70;10.10.10.3;255.255.255.2;10.10.10.254;10.10.0.1;10.10.0.14;domain.local;prod;microsoft
+Microsoft;tr-test1;tr-test1;150;100;0;0;4;16;VLAN_70;10.10.10.4;255.255.255.3;10.10.10.254;10.10.0.1;10.10.0.15;domain.local;prod;microsoft
+Microsoft;tr-test2;tr-test2;150;100;0;0;4;16;VLAN_70;10.10.10.5;255.255.255.4;10.10.10.254;10.10.0.1;10.10.0.16;domain.local;prod;microsoft

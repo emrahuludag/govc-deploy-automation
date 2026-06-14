@@ -1,0 +1,4 @@
+folder;vmname;hostname;osdisk;disk1;disk2;disk3;cpu;memory;vlan;ip;netmask;gw;dns1;dns2;domain;vmvenv;vmteam
+Unix;tr-lb01;tr-lb01;100;150;0;0;4;16;VLAN_70;10.20.10.1;255.255.255.0;10.20.10.254;10.10.11.1;10.10.11.2;domain.local;prod;unix
+Unix;tr-lb02;tr-lb02;100;150;0;0;4;16;VLAN_70;10.20.10.2;255.255.255.0;10.20.10.254;10.10.11.1;10.10.11.2;domain.local;prod;unix
+Unix;tr-lb03;tr-lb03;100;150;0;0;4;16;VLAN_70;10.20.10.3;255.255.255.0;10.20.10.254;10.10.11.1;10.10.11.2;domain.local;prod;unix
